@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+
+
+        android:checkableBehavior="single"
+
+
+        >
+        <item
+            android:icon="@drawable/need"
+            android:id="@+id/item1"
+            android:title="الاسعافات الاولية">
+            <menu>
+
+                <item
+                    android:iconTint="@color/red_primary"
+                    android:id="@+id/item2"
+                    android:icon="@drawable/need3"
+                    android:title="اسعافات للاختناق"/>
+                <item
+
+                    android:iconTint="@color/red_primary"
+                    android:id="@+id/item_help"
+                    android:title="اسعافات للحروق"
+                    android:icon="@drawable/need3"
+                    />
+                <item
+                    android:titleCondensed="10dp"
+                    android:id="@+id/item_help1"
+                    android:title="اسعافات  للكسور"
+                    android:icon="@drawable/need3"
+                    />
+                <item
+                    android:id="@+id/item_help2"
+                    android:title="اسعافات المصاب بالسكر"
+                    android:icon="@drawable/need3"
+                    />
+                <item
+                    android:id="@+id/item_help3"
+                    android:title="اسعافات بلع اللسان"
+                    android:icon="@drawable/need3"
+                    />
+                <item
+                    android:id="@+id/item_help4"
+                    android:title="طريقة ايقاف النزيف "
+                    android:icon="@drawable/need3"
+                    
+                    />
+
+                <item
+                    android:id="@+id/item_help5"
+                    android:title="اسعافات لدغه الثعابين"
+                    android:icon="@drawable/need3"
+
+                    />
+
+
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/sing_out"
+            android:icon="@drawable/ic_mood_bad_black_24dp"
+            android:title="تسجيل الخروج"
+            />
+    </group>
+</menu>
+

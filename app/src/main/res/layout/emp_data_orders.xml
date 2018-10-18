@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/order11"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="اسم المستشفى"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order13"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="اسم لايوجد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order22"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="رقم المريض :لايوجد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order33"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="الامراض المزمنة لدى المريض :لاتوجد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order44"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="اسم المريض "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/order77"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="salem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order88"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="salem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order99"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="salem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/log_in_shape"
+        android:id="@+id/but_order11"
+        android:text="موقع المريض"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/edit_emp"
+        android:layout_marginLeft="0dp"
+        android:maxLines="6"
+        android:hint="تقرير الحالة "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/log_in_shape"
+        android:id="@+id/but_order22"
+        android:layout_marginLeft="70dp"
+        android:text="ارسال التقرير"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fxfx"
+    tools:context=".ADMEN.adme_page">
+
+
+
+
+
+
+
+    <Button
+        android:backgroundTint="@color/google_red"
+        android:id="@+id/admen_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/log_in_shape"
+        android:text="اضافة مسؤول"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+
+        />
+
+
+    <Button
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="اضافة مستشفى "
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+        android:id="@+id/admen_2"
+         />
+
+    <Button
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="اضافة عنوان للخريطة"
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+        android:id="@+id/admen_4"
+        />
+    <Button
+
+        android:backgroundTint="@color/red_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="ادارة النظام"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:id="@+id/admen_3"
+         />
+
+    <WebView
+        android:visibility="invisible"
+        android:id="@+id/web"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

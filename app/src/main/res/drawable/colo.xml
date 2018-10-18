@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--#FFCC0000></color>
+    <color name="white">#ffffff</color>
+    <color name="GIRLEY">#FF4081</color>
+    <color name="blue">#303f9f</color>
+    startColor="#ff40912"
+    !-->
+    <gradient
+        android:endColor="#ffcc0000"
+        android:centerColor="#ffcc0000"
+        android:startColor="#ffcc0000"
+        android:angle="90"
+        />
+    <padding android:left="7dp"
+        android:top="7dp"
+        android:bottom="7dp"
+        android:right="7dp"/>
+
+</shape>

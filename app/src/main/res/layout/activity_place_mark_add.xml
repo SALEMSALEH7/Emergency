@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADMEN.place_mark_add">
+
+    <EditText
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="اسم المكان"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/place_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="وصف المكان"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/place_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="خط الطول"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/place_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="خط العرض"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/place_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/red_primary"
+        android:background="@drawable/log_in_shape"
+        android:text="اضافة مكان على الخريطة"
+        />
+
+
+</LinearLayout>

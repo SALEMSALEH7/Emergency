@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADMEN.admen_add">
+
+    <EditText
+        android:id="@+id/admen_emile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الايميل"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/admen_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الاسم"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/admen_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الرقم السري"
+        android:inputType="text" />
+
+    <TextView
+        android:visibility="invisible"
+        android:text="1"
+        android:id="@+id/admen_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/admen_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/red_primary"
+        android:background="@drawable/log_in_shape"
+        android:text="تسجيل"
+        />
+
+
+</LinearLayout>

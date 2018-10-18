@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HOSIPTAL.hospital_home_page">
+
+    <Button
+        android:id="@+id/hospital_emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/log_in_shape"
+        android:text="تسجيل موظف "
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+
+        />
+    <Button
+        android:id="@+id/order_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="طلبات المرضى"
+        android:textColor="@color/red_primary"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/revire_hos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="مراجعه الحالات"
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/action1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="مراجعه الحالات"
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/action2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/log_in_shape"
+        android:text="مراجعه الحالات"
+        android:textColor="@color/red_primary"
+        android:textSize="18sp"
+        />
+</LinearLayout>

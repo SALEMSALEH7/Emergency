@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/order1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="اسم المريض: لايوجد"
+        />
+
+    <TextView
+        android:id="@+id/order2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="ahmed"
+        />
+
+    <TextView
+
+        android:id="@+id/order3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="الامراض المزمنة:لاتوجد"
+         />
+    <TextView
+        android:id="@+id/order4"
+        android:layout_marginTop="5dp"
+        android:hint="فصيلة الدم :لاتوجد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:id="@+id/order5"
+        android:layout_marginTop="5dp"
+        android:hint="جنس المريض :لاتوجد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order6"
+        android:layout_marginTop="5dp"
+        android:hint="ناريخ الطلب"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order7"
+        android:layout_marginTop="5dp"
+        android:hint="salem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order8"
+        android:layout_marginTop="5dp"
+        android:hint="salem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/but_order"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="فتح الموقع"
+         />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/but_order2"
+        android:text="send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

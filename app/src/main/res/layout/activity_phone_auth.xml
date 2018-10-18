@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Patient.phone_auth">
+    <TextView
+        android:id="@+id/phone_area"
+        android:layout_marginTop="70dp"
+        android:text="+967"
+        android:layout_marginRight="290dp"
+        android:layout_width="40dp"
+        android:layout_height="20dp" />
+    <EditText
+        android:id="@+id/auth1"
+        android:hint="رقم الجوال"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="phone"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="130dp"
+        android:id="@+id/v_code"
+        android:text="التحقق"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="120dp"
+        android:textSize="18dp"
+        android:background="@drawable/log_in_shape"
+        android:textColor="@color/red_primary"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="phone"
+        android:id="@+id/auth2"
+        android:hint="الكود"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="340dp"
+        android:id="@+id/auth3"
+        android:layout_marginLeft="140dp"
+        android:text="موافق"
+        android:textSize="18dp"
+        android:layout_width="125dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/log_in_shape"
+        android:textColor="@color/red_primary"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

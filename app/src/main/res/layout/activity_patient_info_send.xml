@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Patient.Patient_info_send">
+
+    <TextView
+        android:id="@+id/me_hopit"
+        android:layout_marginTop="25dp"
+        android:hint="hos_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/me_name"
+        android:hint="salem"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/me_phone"
+        android:hint="saleh ahmed"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="7dp"
+        android:text="me_blood"
+        android:id="@+id/me_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="7dp"
+        android:text="me_gender"
+        android:id="@+id/me_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="7dp"
+        android:text="help me"
+        android:id="@+id/me_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="help me"
+        android:id="@+id/me_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="7dp"
+        android:text="me_y"
+        android:id="@+id/me_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:text="me_y"
+        android:id="@+id/me_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/last_step"
+        android:text="ارسال طلب الطوارىء"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/log_in_shape"
+        android:backgroundTint="@color/red_primary"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="طلب لشخص اخر"
+        android:id="@+id/items7"
+        android:background="@drawable/log_in_shape"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
